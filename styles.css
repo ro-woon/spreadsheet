@@ -1,0 +1,49 @@
+#export-button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 164, 0);
+    border: none;
+    color: white;
+}
+
+#export-button:hover {
+    background-color: rgb(0, 144, 0);
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 5px;
+}
+
+.cell:focus {
+    border: 3px solid lightgreen;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+}
+
+.selected {
+    background-color: lightgreen;
+    color: white;
+}
+
+#now-position {
+    display: inline;
+}
